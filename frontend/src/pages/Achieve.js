@@ -80,7 +80,7 @@ const Achieve = () => {
           <CenterBox>
             <ChaImg src={image} alt={name}></ChaImg>
             <span style={{ marginTop: 30 }}>
-              <img src={animal_name_color} alt={name} style={{ width: 120 }} />
+              <img src={animal_name_color} alt={name} style={{ height: 35 }} />
             </span>
             <InfoBox>
               {description.split("\\").map((item) => (
@@ -97,7 +97,8 @@ const Achieve = () => {
 export default Achieve;
 
 let Background = styled.div`
-  width: 350px;
+  width: 370px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   background: white;
